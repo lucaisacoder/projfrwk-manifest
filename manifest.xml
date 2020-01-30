@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="private"
+          fetch="ssh://git@github.com" />
+  <remote name="github"
+          fetch="git://github.com/" />
+  <remote name="proj_framework"
+          alias="origin"
+          fetch="https://github.com/"
+          review="https://github.com/lucaisacoder/" />
+                                             
+  <default revision="refs/heads/dev"
+           remote="proj_framework"
+           sync-c="true"
+           sync-j="32" />
+
+  <include name="include/applications.xml" />
+  <include name="include/components.xml" />
+  <include name="include/tools.xml" />
+  <include name="include/test.xml" />
+  
+</manifest>
