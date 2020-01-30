@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-
+  <project path="tests/osal" name="lucaisacoder/projfrwk-com-osal-test" remote="proj_framework" revision="dev" />
 </manifest>
