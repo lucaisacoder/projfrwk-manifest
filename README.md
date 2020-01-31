@@ -1,7 +1,8 @@
 # projfrwk-manifest
 project framework manifest repo
 
-/crates/l/:crate/:version
+![](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue)
+
 
 # USAGE
 ## Download
