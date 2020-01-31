@@ -1,6 +1,7 @@
 # projfrwk-manifest
 project framework manifest repo
 
+/crates/l/:crate/:version
 
 # USAGE
 ## Download
