@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="core/core" name="lucaisacoder/projfrwk-core" remote="proj_framework" revision="develop" />
+</manifest>
