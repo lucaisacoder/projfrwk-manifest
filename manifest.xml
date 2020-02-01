@@ -16,5 +16,6 @@
 
   <include name="include/components.xml" />
   <include name="include/core.xml" />
+  <include name="include/tools.xml" />
   
 </manifest>
