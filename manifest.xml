@@ -14,10 +14,7 @@
            sync-c="true"
            sync-j="32" />
 
-  <include name="include/applications.xml" />
   <include name="include/components.xml" />
   <include name="include/tools.xml" />
-  <include name="include/test.xml" />
   
-  <project path="public" name="lucaisacoder/projfrwk-public" remote="proj_framework" revision="dev" />
 </manifest>
