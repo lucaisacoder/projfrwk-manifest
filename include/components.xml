@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="components/osal" name="lucaisacoder/projfrwk-com-osal" remote="proj_framework" revision="dev" />
+  <project path="components/log" name="lucaisacoder/projfrwk-com-log" remote="proj_framework" revision="dev" />
 </manifest>
