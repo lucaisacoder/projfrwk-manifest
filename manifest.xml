@@ -15,5 +15,6 @@
            sync-j="32" />
 
   <include name="include/components.xml" />
+  <include name="include/core.xml" />
   
 </manifest>
