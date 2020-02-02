@@ -8,7 +8,7 @@ project framework manifest repo
 ## Download
   ```
   $ repo init -u https://github.com/lucaisacoder/projfrwk-manifest.git -b develop -m manifest.xml
-  $ repo sync -j32
+  $ repo sync -j32 --fetch-submodules  
   $ repo forall -c git checkout -b develop origin/develop
   ```
 ## Components
