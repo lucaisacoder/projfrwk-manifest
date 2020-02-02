@@ -3,4 +3,5 @@
   <project path="tools/scripts" name="lucaisacoder/projfrwk-tool-scripts" remote="proj_framework" revision="develop" />
   <project path="tools/cmake" name="lucaisacoder/projfrwk-tool-cmake" remote="proj_framework" revision="develop" />
   <project path="tools/kconfig" name="lucaisacoder/projfrwk-tool-kconfig" remote="proj_framework" revision="develop" />
+  <project path="tools/gtest" name="lucaisacoder/projfrwk-tool-gtest" remote="proj_framework" revision="develop" />
 </manifest>
