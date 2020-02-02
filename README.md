@@ -63,6 +63,7 @@ project framework manifest repo
   
 ## Build Application
 #### compile application
+  ```
   $ cd ./tools/scripts
   $ ./project.py build_all
   $ ./project.py uninstall  
