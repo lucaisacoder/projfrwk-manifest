@@ -17,22 +17,46 @@ project framework manifest repo
   $ cd ./components/osal
   $ ./project.py build
   $ ./project.py install
+  $ ./project.py uninstall  
+  $ ./project.py clean 
+  $ ./project.py distclean   
   ```
   output path:<br>
-  ./public/lib/libosal.a
-  ./public/include/osal
+  ./components/osal/installed/include
+  ./components/osal/lib/libosal.a
+  ./components/osal/lib/CMake
   
 #### compile OSAL unit test
   ```
   $ cd ./components/osal
-  $ ./project.py unit_test
+  $ ./project.py build
   $ ./project.py install
+  $ ./project.py uninstall  
+  $ ./project.py clean 
+  $ ./project.py distclean   
   ```
-  output path: <br>
-  ./public/bin/osal_ut
+  output path:<br>
+  ./components/osal/bin/osal_ut
  
-#### uninstall
+## Cores
+#### compile CORE binary
+  $ cd ./core/core
+  $ ./project.py build
+  $ ./project.py install
+  $ ./project.py uninstall  
+  $ ./project.py clean 
+  $ ./project.py distclean   
   ```
-  $ cd ./components/osal
-  $ ./project.py uninstall
+  output path:<br>
+  ./core/core/bin/core
+
+#### compile CORE unit test
+  $ cd ./core/core
+  $ ./project.py build
+  $ ./project.py install
+  $ ./project.py uninstall  
+  $ ./project.py clean 
+  $ ./project.py distclean   
   ```
+  output path:<br>
+  ./core/core/bin/core_ut
