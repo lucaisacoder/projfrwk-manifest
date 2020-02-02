@@ -60,3 +60,14 @@ project framework manifest repo
   ```
   output path:<br>
   ./core/core/bin/core_ut
+  
+## Build Application
+#### compile application
+  $ cd ./tools/scripts
+  $ ./project.py build_all
+  $ ./project.py uninstall  
+  $ ./project.py clean 
+  $ ./project.py distclean   
+  ```
+  output path:<br>
+  ./output/bin/core
