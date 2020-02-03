@@ -11,7 +11,6 @@
 
 	<default revision="refs/heads/dev"
 		remote="proj_framework"
-		sync-s="true"
 		sync-c="true"
 		sync-j="32" />
 
