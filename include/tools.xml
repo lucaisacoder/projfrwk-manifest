@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <project path="tools/main" name="lucaisacoder/projfrwk-tool-main" remote="proj_framework" revision="develop" />
   <project path="tools/scripts" name="lucaisacoder/projfrwk-tool-scripts" remote="proj_framework" revision="develop" />
   <project path="tools/cmake" name="lucaisacoder/projfrwk-tool-cmake" remote="proj_framework" revision="develop" />
   <project path="tools/kconfig" name="lucaisacoder/projfrwk-tool-kconfig" remote="proj_framework" revision="develop" />
