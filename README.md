@@ -15,7 +15,8 @@ project framework manifest repo
 #### compile OSAL static libary
   ```
   $ cd ./components/osal
-  $ ./project.py build
+  $ ./project.py menuconfig
+  $ ./project.py build  
   $ ./project.py install
   $ ./project.py uninstall  
   $ ./project.py clean 
@@ -29,6 +30,7 @@ project framework manifest repo
 #### compile OSAL unit test
   ```
   $ cd ./components/osal
+  $ ./project.py menuconfig  
   $ ./project.py build
   $ ./project.py install
   $ ./project.py uninstall  
@@ -41,6 +43,7 @@ project framework manifest repo
 ## Cores
 #### compile CORE binary
   $ cd ./core/core
+  $ ./project.py menuconfig  
   $ ./project.py build
   $ ./project.py install
   $ ./project.py uninstall  
@@ -52,6 +55,7 @@ project framework manifest repo
 
 #### compile CORE unit test
   $ cd ./core/core
+  $ ./project.py menuconfig  
   $ ./project.py build
   $ ./project.py install
   $ ./project.py uninstall  
@@ -65,8 +69,9 @@ project framework manifest repo
 #### compile application
   ```
   $ cd ./tools/scripts
-  $ ./project.py build_all
-  $ ./project.py uninstall  
+  $ ./project.py menuconfig  
+  $ ./project.py build
+  $ ./project.py uninstall 
   $ ./project.py clean 
   $ ./project.py distclean   
   ```
